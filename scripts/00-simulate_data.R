@@ -1,5 +1,5 @@
 #### Preamble ####
-# Purpose: Simulates a data set for the total number of shootings in Toronto for the years 2014-2019 in different geographic locations
+# Purpose: Simulates a data set for the total number of shootings in Toronto for the years 2014-2019
 # Author: Rahul Gopeesingh
 # Date: 23 January 2024
 # Contact: rahul.gopeesingh@mail.utoronto.ca
@@ -10,11 +10,8 @@
 
 #### Workspace setup ####
 library(tidyverse)
-# [...UPDATE THIS...]
 
 #### Simulate data ####
-# [...ADD CODE HERE...]
-
 set.seed(42)
 
 simulated_data_shootings <- 
@@ -31,5 +28,8 @@ simulated_data_shootings <-
   )
 simulated_data_shootings
 
-
+write_csv( 
+  x = simulated_data_shootings,
+  file = "inputs/data/simulated_dataset_shootings.csv"
+  )
 
