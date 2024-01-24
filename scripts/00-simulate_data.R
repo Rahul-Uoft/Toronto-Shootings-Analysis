@@ -13,7 +13,9 @@ library(tidyverse)
 
 #### Simulate data ####
 set.seed(42)
+#use set seed to ensure reproducibility of project
 
+#simulate the data as it would appear in the given dataset. This is because they are generally sorted by division
 simulated_data_shootings <- 
   tibble(
     division = rep(c("D11","D12","D13","D14","D22","D23","D31","D32","D33","D41","D42","D43","D51","D52","D53","D54/55"), times = 6),
@@ -28,8 +30,33 @@ simulated_data_shootings <-
   )
 simulated_data_shootings
 
+
+
 write_csv( 
   x = simulated_data_shootings,
   file = "inputs/data/simulated_dataset_shootings.csv"
   )
+
+
+
+#### Test simulated data ####
+
+#test that only the desired years show up in the occurred year column
+simulated_data_shootings$year |>
+  unique() == c(2014, 2015, 2016, 2017, 2018, 2019)
+
+#test that there are only 6 unique years in the occurred year column
+simulated_data_shootings$year |>
+  unique() |>
+  length() == 6
+
+#test that 2014 was the first year in which data appears
+simulated_data_shootings$year |>
+  min() == 2014
+
+#test that every year has a number that is non-negative
+simulated_data_shootings$number_of_shootings |>
+  min() >= 0
+
+
 
