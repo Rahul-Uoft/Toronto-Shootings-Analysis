@@ -14,7 +14,8 @@ The repo is structured as:
 -   `outputs/paper` contains the files used to generate the paper, including the Quarto document and reference bibliography file, as well as the PDF of the paper. 
 -   `scripts` contains the R scripts used to simulate, download and clean data.
 
-## Statement of LLM usage
+## Statement on LLM usage
 
-** ChatGPT, a large language model was used to assist with troubleshooting the coding aspect of this paper. A link to the full conversation is included:
+** Statement on LLM usage: ChatGPT, a large language model was used to assist with troubleshooting the coding aspect of this paper. A link to the full chat is included:
 https://chat.openai.com/share/1a80b8ac-8b57-4cc0-8733-e57fd26b9a6c
+The entire chat history is also included under "inputs/llms/usuage.txt"
