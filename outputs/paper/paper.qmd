@@ -94,15 +94,14 @@ In conclusion, there has been a general increase in the numbe of shootings in To
 
 \newpage
 
-# References
-
-\newpage
-
 # Appendix
 
 ### Data Cleaning
 
 The data was cleaned by removing unnecessary columns and then finding the total number of shootings in Toronto for each year. This was done with the help of R[@citeR] and tidyverse[@tidyverse]
+
+# References
+
 
 [^1]
 
