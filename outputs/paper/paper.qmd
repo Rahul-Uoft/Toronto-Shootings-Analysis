@@ -3,7 +3,7 @@ title: "An analysis of shooting trends in Toronto from 2014 to 2019"
 author: 
   - "Rahul Gopeesingh"
 date: "24 Jan 2024"
-abstract: "This paper looks at the shooting trends in Toronto before Covid. There was a large increase in total number of shootings per year in the years 2015 and 2016 and there was a slight decrease in 2017. It would appear that shootings are generally rising. The data for how much of these were fatal was missing and further analysis with this data could give a more vivid picture of gun related violence in Toronto"
+abstract: "This paper looks at the shooting trends in Toronto before Covid. There was a large increase in total number of shootings per year in the years 2015 and 2016 and there was a slight decrease in 2017. It would appear that the total number of shootings per year is generally rising. The data for how much of these shootings were fatal was missing and further analysis with this data could give a more vivid picture of gun related violence in Toronto"
 format: pdf
 number-sections: true
 bibliography: references.bib
@@ -21,17 +21,17 @@ library(tidyverse)
 
 # Introduction
 
-You can and should cross-reference sections and sub-sections. Policies regarding guns are largely debated around the world and currently gaining even more popularity. One reason for this may be an increase in gun-related violence. Some argue that guns should be allowed because criminals get them anyway, why not allow a law-abiding citizen a chance to defend themselves. Others argue that by allowing guns to be more accessible we increase the likelihood of gun-related crimes.
+Policies regarding guns are largely debated around the world and currently gaining even more attention. One reason for this may be an increase in gun-related violence[@breakdown]. Some argue that guns should be allowed because if criminals get them anyway, why not allow a law-abiding citizen a chance to defend themselves. Others argue that by allowing guns to be more accessible we increase the likelihood of gun-related crimes.
 
 In Canada, guns have been legalalized in the 20th century but still require people to go through a screening process before owning a registered firearm. In December of 2023, the Canadian Government put more regulations in place to make firearms less accessible.[@amendedbillC21]
 
 This is probably due to a general increase in gun-related violence throughout the years including a mass shooting just a couple of years ago. This paper will analyze the years 2014 to 2019 for its shooting trends to confirm this hypothesis. However, it is important to note that additional data for more recent years would add to the findiings of this paper significantly.
 
-This paper is divided into 4 sections: Data, Results, Discussion, Conclusion. In the Data section I will discuss the nature of the dataset obtained from opendatatoronto and how it was cleaned. The results section shows the findings from our analysis and the discussion section will discuss these findings and their implications. Finally, the conclusion summarizes the essence of this paper.
+This paper is divided into 4 sections: Data, Results, Discussion, Conclusion. In the Data section I will discuss the nature of the dataset obtained from 'opendatatoronto.' The results section shows the findings from our analysis and the discussion section will discuss these findings and their implications. Finally, the conclusion summarizes the essence of this paper.
 
 # Data
 
-The data was sourced from opendatatoronto[@opendata] and includes the number of shootings in a given area of toronto for each of the years mentioned above. It was collected and analyzed using the statistical programming software R[@citeR] with help from tidyverse[@tidyverse] and readr[@readr] as well as ggplot2[@ggplot]. The data is up to date as it was last refreshed in 2022. The shootings include any instance in which a projectile from a firearm injures someone except for special circumstances such as suicides or police discharges. By excluding these, we get a better idea of gun-related violence with this data. It is important to note that accidental shootings are still included and while this may dilute how much of the total is related to violent crimes, it does add an element of safety in which the data represents how 'safe' toronto is from shootings. The data is shared in an ethical way in which no personal data from crimes were shared.
+The data was sourced from opendatatoronto[@opendata] and includes the number of shootings in a given area of toronto for each of the years mentioned above. It was collected and analyzed using the statistical programming software R[@citeR] with help from tidyverse[@tidyverse] and readr[@readr] as well as ggplot2[@ggplot]. The data is up to date as it was last refreshed in 2022, 3 years after the last recording of data. The shootings include any instance in which a projectile from a firearm injures someone except for special circumstances such as suicides or police discharges. By excluding these, we get a better idea of gun-related violence with this data. It is important to note that accidental shootings are still included and while this may dilute how much of the total is related to violent crimes, it does add an element of safety in which the data represents how 'safe' toronto is from shootings. The data is shared in an ethical way in which no personal data from crimes were shared.
 
 # Results
 
@@ -92,11 +92,13 @@ Following this data regarding shootings in 2020-2023 should be recorded and anal
 In conclusion, there has been a general increase in the numbe of shootings in Toronto throughout the years 2014-2019 with the rate of increase decreasing significantly in 2016. The increase in gun-related violence is a concern of many and the Canadian Government is taking action to regulate guns in a safer manner.
 
 \newpage
+
+# References
+
 # Appendix
 
 The data was cleaned by removing unnecessary columns and then finding the total number of shootings in Toronto for each year. This was done with the help of R[@citeR] and tidyverse[@tidyverse]
 
-# References
 
 
 
