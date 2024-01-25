@@ -21,7 +21,7 @@ data_to_graph <- cleaned_shooting_data %>%
 
 write_csv(
   x = data_to_graph,
-  file = "outputs/models/data_to_graph_table.csv"
+  file = "outputs/graphs/data_to_graph_table.csv"
 )
 #we plot our graph here and rename the axis to more readable formats. 
 data_to_graph |>
@@ -31,7 +31,7 @@ data_to_graph |>
   labs(x = "Year", y = "Number of Shootings in Toronto")
 
 #### Save model ####
-ggsave(file = "outputs/models/graph.pdf")
+ggsave(file = "outputs/graphs/graph.pdf")
 
 
 
