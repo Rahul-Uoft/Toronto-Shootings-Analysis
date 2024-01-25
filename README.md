@@ -16,5 +16,5 @@ The repo is structured as:
 
 ## Statement of LLM usage
 
-** ChatGPT, a large language model was used to assist with troubleshooting the coding aspect of this paper. A link to the full conversation is included below:
+** ChatGPT, a large language model was used to assist with troubleshooting the coding aspect of this paper. A link to the full conversation is included:
 https://chat.openai.com/share/1a80b8ac-8b57-4cc0-8733-e57fd26b9a6c
