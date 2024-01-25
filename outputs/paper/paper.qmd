@@ -52,7 +52,7 @@ library(tidyverse)
 library(readr)
 setwd("/Users/rahulgopeesingh/Toronto Shooting 2")
 #read the data to graph and create the table that we want to plot
-summary_table <- read_csv("outputs/models/data_to_graph_table.csv")
+summary_table <- read_csv("outputs/graphs/data_to_graph_table.csv")
 
 
 ```
