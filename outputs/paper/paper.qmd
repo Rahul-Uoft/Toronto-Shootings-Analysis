@@ -6,6 +6,7 @@ date: "24 Jan 2024"
 abstract: "This paper looks at the shooting trends in Toronto before Covid. There was a large increase in total number of shootings per year in the years 2015 and 2016 and there was a slight decrease in 2017. It would appear that the total number of shootings per year is generally rising. The data for how much of these shootings were fatal was missing and further analysis with this data could give a more vivid picture of gun related violence in Toronto"
 format: pdf
 number-sections: true
+toc: true
 bibliography: references.bib
 ---
 
@@ -94,6 +95,8 @@ In conclusion, there has been a general increase in the numbe of shootings in To
 \newpage
 
 # References
+
+\newpage
 
 # Appendix
 
