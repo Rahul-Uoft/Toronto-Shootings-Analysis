@@ -25,7 +25,7 @@ library(tidyverse)
 You can and should cross-reference sections and sub-sections. 
 Policies regarding guns are largely debated around the world and currently gaining even more popularity. One reason for this may be an increase in gun-related violence. Some argue that guns should be allowed because criminals get them anyway, why not allow a law-abiding citizen a chance to defend themselves. Others argue that by allowing guns to be more accessible we increase the likelihood of gun-related crimes. 
 
-In Canada, guns have been legalalized in the 20th century but still require people to go through a screening process before owning a registered firearm. In December of 2023, the Canadian Government put more regulations in place to make firearms less accessible.
+In Canada, guns have been legalalized in the 20th century but still require people to go through a screening process before owning a registered firearm. In December of 2023, the Canadian Government put more regulations in place to make firearms less accessible.[@amendedbillC21]
 
 This is probably due to a general increase in gun-related violence throughout the years including a mass shooting just a couple of years ago. This paper will analyze the years 2014 to 2019 for its shooting trends to confirm this hypothesis. However, it is important to note that additional data for more recent years would add to the findiings of this paper significantly. 
 
@@ -36,7 +36,7 @@ This paper is divided into 4 sections: Data, Results, Discussion, Conclusion. In
 
 # Data
 
-The data was sourced from opendatatoronto and includes the number of shootings in a given area of toronto for each of the years mentioned above. The data is definitely up to date as it was last refreshed in 2022. The shootings include any instance in which a projectile from a firearm injures someone except for special circumstances such as suicides or police discharges. By excluding these, we get a better idea of gun-related violence with this data. It is important to note that accidental shootings are still included and while this may dilute how much of the total is related to violent crimes, it does add an element of safety in which the data represents how 'safe' toronto is from shootings. The data is shared in an ethical way in which no personal data from crimes were shared. 
+The data was sourced from opendatatoronto[@opendata] and includes the number of shootings in a given area of toronto for each of the years mentioned above. It was collected and analyzed using the statistical programming software R[@citeR] with help from tidyverse[@tidyverse] and readr[@readr]. The data is up to date as it was last refreshed in 2022. The shootings include any instance in which a projectile from a firearm injures someone except for special circumstances such as suicides or police discharges. By excluding these, we get a better idea of gun-related violence with this data. It is important to note that accidental shootings are still included and while this may dilute how much of the total is related to violent crimes, it does add an element of safety in which the data represents how 'safe' toronto is from shootings. The data is shared in an ethical way in which no personal data from crimes were shared. 
 
 # Results
 
@@ -77,7 +77,7 @@ In @fig-uniquename, we see a large increase in shootings from 2014 to 2015 and f
 
 ## Analysis of Trend in Results
 
-The graph shows a steady increase in the overall trend of shootings in Toronto. This is probably not linked to economic factors as inflation and unemployment were both low during this time. (@statista) It is possible that the increase in shootings may not be linked into an increase in fatalities due to shootings. In any case, a further breakdown of the nature of each shooting would be beneficial to truly understand this trend. 
+The graph shows a steady increase in the overall trend of shootings in Toronto. This is probably not linked to economic factors as inflation and unemployment were both low during this time. It is possible that the increase in shootings may not be linked into an increase in fatalities due to shootings. In any case, a further breakdown of the nature of each shooting would be beneficial to truly understand this trend. It is worthwhile to mention that in 2012 the gun regulations were lightened and shortly after there was a spike in imports of guns from the U.S.[@breakdown]
 
 
 ## Government Response

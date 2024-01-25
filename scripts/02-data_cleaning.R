@@ -8,8 +8,6 @@
 
 #### Workspace setup ####
 library(tidyverse)
-library(janitor)
-library(tidyr)
 
 #### Clean data ####
 raw_data <- read_csv("inputs/data/raw_shootings_data.csv")

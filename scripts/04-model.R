@@ -9,7 +9,6 @@
 
 #### Workspace setup ####
 library(tidyverse)
-library(dplyr)
 
 #### Read data ####
 cleaned_shooting_data <- read_csv("outputs/data/cleaned_shooting_data.csv")
