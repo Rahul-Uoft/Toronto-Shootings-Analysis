@@ -36,7 +36,7 @@ This paper is divided into 4 sections: Data, Results, Discussion, Conclusion. In
 
 # Data
 
-The data was sourced from opendatatoronto[@opendata] and includes the number of shootings in a given area of toronto for each of the years mentioned above. It was collected and analyzed using the statistical programming software R[@citeR] with help from tidyverse[@tidyverse] and readr[@readr]. The data is up to date as it was last refreshed in 2022. The shootings include any instance in which a projectile from a firearm injures someone except for special circumstances such as suicides or police discharges. By excluding these, we get a better idea of gun-related violence with this data. It is important to note that accidental shootings are still included and while this may dilute how much of the total is related to violent crimes, it does add an element of safety in which the data represents how 'safe' toronto is from shootings. The data is shared in an ethical way in which no personal data from crimes were shared. 
+The data was sourced from opendatatoronto[@opendata] and includes the number of shootings in a given area of toronto for each of the years mentioned above. It was collected and analyzed using the statistical programming software R[@citeR] with help from tidyverse[@tidyverse] and readr[@readr] as well as ggplot2[@ggplot]. The data is up to date as it was last refreshed in 2022. The shootings include any instance in which a projectile from a firearm injures someone except for special circumstances such as suicides or police discharges. By excluding these, we get a better idea of gun-related violence with this data. It is important to note that accidental shootings are still included and while this may dilute how much of the total is related to violent crimes, it does add an element of safety in which the data represents how 'safe' toronto is from shootings. The data is shared in an ethical way in which no personal data from crimes were shared. 
 
 # Results
 
@@ -82,7 +82,7 @@ The graph shows a steady increase in the overall trend of shootings in Toronto. 
 
 ## Government Response
 
-The Canadian Government is already working on improving this seen by the amends made to bill C-21. For instance they froze the sale, purchase or transfer of handguns and also implemented a system in which one can report an owner of a firearm if they pose a danger to themselves or others. This will lessen the overall likelihood that someone causes unintentional harm using a firearm as well as mass shootings which seemed to have gained popularity recently. It was after some mass shootings that the people of Canada started protesting the gun laws and as we have seen the government has taken action. 
+The Canadian Government is already working on improving this, which can be observed by the amends made to bill C-21.[@amendedbillC21] For instance they froze the sale, purchase or transfer of handguns and also implemented a system in which one can report an owner of a firearm if they pose a danger to themselves or others. This will lessen the overall likelihood that someone causes unintentional harm using a firearm as well as mass shootings which seemed to have gained popularity recently. It was after some mass shootings that the people of Canada started protesting the gun laws and as we have seen the government has taken action. 
 
 ## Gun Safety
 
@@ -102,7 +102,12 @@ Following this data regarding shootings in 2020-2023 should be recorded and anal
 In conclusion, there has been a general increase in the numbe of shootings in Toronto throughout the years 2014-2019 with the rate of increase decreasing significantly in 2016. The increase in gun-related violence is a concern of many and the Canadian Government is taking action to regulate guns in a safer manner. 
 
 
+# Appendix
+
+The data was cleaned by removing unnecessary columns and then finding the total number of shootings in Toronto for each year. This was done with the help of R[@citeR] and tidyverse[@tidyverse]
 
 # References
+
+[^1]: github repository: 
 
 
